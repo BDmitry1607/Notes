@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesAPI", "NotesAPI\NotesAPI.csproj", "{D4BD9259-EEBB-421A-9509-A1F369F61FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesBLL", "NotesBLL\NotesBLL.csproj", "{D73138E0-8B38-450D-8642-A82F773EACB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesDAL", "NotesDAL\NotesDAL.csproj", "{96DF1222-EE42-4100-901F-A3F586CDAB67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4BD9259-EEBB-421A-9509-A1F369F61FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BD9259-EEBB-421A-9509-A1F369F61FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BD9259-EEBB-421A-9509-A1F369F61FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BD9259-EEBB-421A-9509-A1F369F61FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73138E0-8B38-450D-8642-A82F773EACB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73138E0-8B38-450D-8642-A82F773EACB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73138E0-8B38-450D-8642-A82F773EACB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73138E0-8B38-450D-8642-A82F773EACB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DF1222-EE42-4100-901F-A3F586CDAB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DF1222-EE42-4100-901F-A3F586CDAB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DF1222-EE42-4100-901F-A3F586CDAB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DF1222-EE42-4100-901F-A3F586CDAB67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA2B54BD-2BDC-4E78-B76D-20EBC3FE3353}
+	EndGlobalSection
+EndGlobal

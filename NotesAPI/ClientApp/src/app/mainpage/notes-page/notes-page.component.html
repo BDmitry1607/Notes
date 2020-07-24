@@ -1,0 +1,52 @@
+<body>
+  <div class="notes-actions">
+
+    <div class="create-note">
+      <h3 i18n>Add Note</h3>
+
+      <form [formGroup]="addNoteForm" (submit)="createNote()" class="form-inline mb-4">
+        <label class="sr-only" for="Text" i18n>Text</label>
+        <div class="input-group mb-2 mr-sm-2">
+          <input type="text" class="form-control" formControlName="text" placeholder="Text">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2" i18n>Add Note</button>
+      </form>
+    </div>
+
+    <div class="update-note">
+      <h3 i18n>Edit Note</h3>
+      <form [formGroup]="updateNoteForm" (submit)="updateNote()" class="form-inline mb-4">
+
+        <label class="sr-only" for="Id" i18n>Id</label>
+        <div class="input-group mb-2 mr-sm-2">
+          <input type="text" class="form-control" formControlName="id" placeholder="Id">
+        </div>
+
+        <label class="sr-only" for="Text" i18n>Text</label>
+        <div class="input-group mb-2 mr-sm-2">
+          <input type="text" class="form-control" formControlName="text" placeholder="Text">
+        </div>
+
+        <button type="submit" class="btn btn-primary mb-2" i18n>Update Note</button>
+
+      </form>
+    </div>
+
+  </div>
+  <div>
+    <h1 i18n>Notes List:</h1>
+    <div class="notes-list" *ngFor="let note of (notes$ | async)">
+      <div class="note">
+        <div class="note-id">
+          <p i18n>Note's id:&nbsp;</p>
+          <p>{{note.id}}</p><br>
+        </div>
+        <div class="note-text">
+          <p i18n>Note's text:&nbsp;</p>
+          <p>{{note.text}}</p>
+        </div>
+        <button (click)="deleteNote(note.id)" i18n>delete</button>
+      </div>
+    </div>
+  </div>
+</body>

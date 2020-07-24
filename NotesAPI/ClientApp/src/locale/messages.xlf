@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8770fb673adfa224109d334bee7e15227ec25d2d" datatype="html">
+        <source>Add Note</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ba143716c2da6e4120c0c1a804f0bdd9a7e5f5b" datatype="html">
+        <source>Text</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71ee631eab78f776d585b4008490ecdfe9454368" datatype="html">
+        <source>Edit Note</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2798cc1e152b1ec07fd8daf94a2a073d1ba1ebcc" datatype="html">
+        <source>Id</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff79ab4679d5ae9fdd35c6f25974d1f458adbf53" datatype="html">
+        <source>Update Note</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f46a1faaaef828756a5151f82f1f39606526bd10" datatype="html">
+        <source>Notes List:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28e73005c181595d3c5bff0e6509494d82256868" datatype="html">
+        <source>Note&apos;s id: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93b6c5f795a4d055b5543c0d3b14143d730817b7" datatype="html">
+        <source>Note&apos;s text: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70ef158c584bafe788e319a0bffa11b02ee9abf1" datatype="html">
+        <source>delete</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mainpage/notes-page/notes-page.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
